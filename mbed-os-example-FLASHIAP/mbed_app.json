@@ -1,0 +1,29 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"sigdeltec\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"251327412287\""
+        },
+        "wifi-security": {
+            "help": "Wi-Fi security protocol, valid values are WEP, WPA, WPA2, WPA/WPA2.",
+            "value": "WPA2"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200
+        },
+        "NUCLEO_F429ZI": {
+            "target.network-default-interface-type": "WIFI",
+            "esp8266.provide-default": true,
+            "esp8266.tx": "PA_9",
+            "esp8266.rx": "PA_10",
+            "target.stdio_uart_tx": "PD_5",
+            "target.stdio_uart_rx": "PD_6"
+        }
+    }
+}

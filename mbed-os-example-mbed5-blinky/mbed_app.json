@@ -1,0 +1,55 @@
+{
+    "macros": [
+
+    ],
+    "config": {
+        "fw-release-mode": {
+            "macro_name"    : "FW_RELEASE_TYPE",
+            "help"          : "R = Release, T = Test, D = Demo",
+            "value"         : "'D'"
+        },
+        "fw-version": {
+            "macro_name"    : "FW_VERSION",
+            "help"          : "x.x.x",
+            "value"         : "\"0.0.1\""
+        },
+        "fw-app-type": {
+            "macro_name"    : "SENSOR_BOARD_TYPE",
+            "help"          : "A, B, C, D",
+            "value"         : "'D'"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate"                  : 115200,
+            "platform.stdio-convert-newlines"           : true,
+            "platform.stdio-buffered-serial"            : false,
+            "platform.all-stats-enabled"                : true,
+            "platform.cpu-stats-enabled"                : true,
+            "platform.thread-stats-enabled"             : true,
+            "target.printf_lib"							: "std"
+        },
+        "DISCO_L072CZ_LRWAN1": {
+            "rtos.main-thread-stack-size"               : 1280,
+            "rtos.timer-thread-stack-size"              : 256,
+            "rtos.idle-thread-stack-size"               : 256,
+
+            "target.stdio_uart_tx"                      : "PC_12",
+            "target.stdio_uart_rx"                      : "PD_2"
+        },
+        "NUCLEO_L496ZG": {
+            "rtos.main-thread-stack-size"               : 1280,
+            "rtos.timer-thread-stack-size"              : 256,
+            "rtos.idle-thread-stack-size"               : 256,
+            
+            "target.stdio_uart_tx"                      : "PC_12",
+            "target.stdio_uart_rx"                      : "PD_2"
+        },
+        "NUCLEO_L073RZ": {
+            "target.stdio_uart_tx"                      : "PC_12",
+            "target.stdio_uart_rx"                      : "PD_2",
+
+            "target.macros_add"                         : ["MBED_SLEEP_TRACING_ENABLED"]
+        }
+    }
+}
