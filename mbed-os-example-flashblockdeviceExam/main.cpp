@@ -63,7 +63,7 @@ void erase()
     if (err) {
         error("error: %s (%d)\n", strerror(-err), err);
     }
-}
+}#inc
 
 static auto erase_event = mbed_event_queue() -> make_user_allocated_event(erase);
 
