@@ -11,10 +11,6 @@
 #include "FATFileSystem.h"
 FATFileSystem fs("fs");
 
-// Uncomment the following two lines and comment the previous two to use FAT file system.
-// #include "FATFileSystem.h"
-// FATFileSystem fs("fs");
-
 void isThere()
 {
     FILE *fp = fopen("/fs/test.txt", "r");
