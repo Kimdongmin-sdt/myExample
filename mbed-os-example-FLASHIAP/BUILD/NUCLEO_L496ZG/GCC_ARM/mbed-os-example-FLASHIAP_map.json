@@ -3,11 +3,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -6, 
+            ".text-delta": -24, 
             ".bss": 29, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 106
+            ".text": 82
         }
     }, 
     {
@@ -47,11 +47,11 @@
         "module": "main.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -68, 
+            ".text-delta": 4, 
             ".bss": 8, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 236
+            ".text": 240
         }
     }, 
     {
@@ -80,18 +80,18 @@
         "module": "mbed-os/drivers", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -476, 
+            ".text-delta": 80, 
             ".bss": 40, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 310
+            ".text": 390
         }
     }, 
     {
         "module": "mbed-os/hal", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 14, 
+            ".text-delta": 0, 
             ".bss": 114, 
             ".data": 8, 
             ".bss-delta": 0, 
@@ -123,20 +123,20 @@
     {
         "module": "mbed-os/targets", 
         "size": {
-            ".data-delta": -32, 
-            ".text-delta": -1192, 
+            ".data-delta": 0, 
+            ".text-delta": 4, 
             ".bss": 1028, 
             ".data": 8, 
             ".bss-delta": 0, 
-            ".text": 11616
+            ".text": 11620
         }
     }, 
     {
         "summary": {
             "static_ram": 10536, 
-            "total_flash_delta": -1760, 
-            "static_ram_delta": -32, 
-            "total_flash": 37856
+            "total_flash_delta": 64, 
+            "static_ram_delta": 0, 
+            "total_flash": 37920
         }
     }
 ]

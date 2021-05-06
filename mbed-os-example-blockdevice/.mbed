@@ -1,1 +1,3 @@
 ROOT=.
+TARGET=nucleo_l496zg
+TOOLCHAIN=GCC_ARM

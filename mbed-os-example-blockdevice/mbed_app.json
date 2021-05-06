@@ -1,7 +1,33 @@
 {
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"sigdeltec\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"251327412287\""
+        },
+        "wifi-security" : {
+            "help" : "Wi-Fi security protocol, valid values are WEP, WPA, WPA2, WPA/WPA2.",
+            "value" : "WPA2"
+        }
+    },
     "target_overrides": {
-        "K64F": {
-            "platform.stdio-baud-rate": 9600
+        "*": {
+            "platform.stdio-baud-rate": 115200
+        },
+        "NUCLEO_F429ZI" :{
+            "target.network-default-interface-type": "WIFI",
+            "esp8266.provide-default" : true,
+            "esp8266.tx": "PA_9",
+            "esp8266.rx": "PA_10",
+            "target.stdio_uart_tx": "PD_5",
+            "target.stdio_uart_rx": "PD_6"
+        },
+        "NUCLEO_L496ZG": {
+            "target.components_add": ["FLASHIAP"],
+            "target.features_add" : ["STORAGE"]
         }
     }
 }

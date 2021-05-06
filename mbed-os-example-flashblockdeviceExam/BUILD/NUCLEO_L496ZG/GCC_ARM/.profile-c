@@ -62,7 +62,6 @@
         "DEVICE_USTICKER=1", 
         "DEVICE_WATCHDOG=1", 
         "EXTRA_IDLE_STACK_REQUIRED", 
-        "FEATURE_STORAGE=1", 
         "MBED_TICKLESS", 
         "STM32L496xx", 
         "TARGET_CORTEX", 
