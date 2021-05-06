@@ -1,0 +1,175 @@
+[
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 159, 
+            ".bss": 2350, 
+            ".data": 4, 
+            ".bss-delta": 2350, 
+            ".text": 159
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data-delta": 2472, 
+            ".text-delta": 19137, 
+            ".bss": 89, 
+            ".data": 2472, 
+            ".bss-delta": 89, 
+            ".text": 19137
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 960, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 960
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 180, 
+            ".bss": 28, 
+            ".data": 4, 
+            ".bss-delta": 28, 
+            ".text": 180
+        }
+    }, 
+    {
+        "module": "[lib]/nosys.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 32, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 32
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 2289, 
+            ".bss": 312, 
+            ".data": 0, 
+            ".bss-delta": 312, 
+            ".text": 2289
+        }
+    }, 
+    {
+        "module": "mbed-os/cmsis", 
+        "size": {
+            ".data-delta": 168, 
+            ".text-delta": 10154, 
+            ".bss": 5956, 
+            ".data": 168, 
+            ".bss-delta": 5956, 
+            ".text": 10154
+        }
+    }, 
+    {
+        "module": "mbed-os/connectivity", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 287, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 287
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1724, 
+            ".bss": 1096, 
+            ".data": 0, 
+            ".bss-delta": 1096, 
+            ".text": 1724
+        }
+    }, 
+    {
+        "module": "mbed-os/events", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1535, 
+            ".bss": 3104, 
+            ".data": 0, 
+            ".bss-delta": 3104, 
+            ".text": 1535
+        }
+    }, 
+    {
+        "module": "mbed-os/hal", 
+        "size": {
+            ".data-delta": 8, 
+            ".text-delta": 1695, 
+            ".bss": 115, 
+            ".data": 8, 
+            ".bss-delta": 115, 
+            ".text": 1695
+        }
+    }, 
+    {
+        "module": "mbed-os/platform", 
+        "size": {
+            ".data-delta": 260, 
+            ".text-delta": 9049, 
+            ".bss": 457, 
+            ".data": 260, 
+            ".bss-delta": 457, 
+            ".text": 9049
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1693, 
+            ".bss": 8, 
+            ".data": 0, 
+            ".bss-delta": 8, 
+            ".text": 1693
+        }
+    }, 
+    {
+        "module": "mbed-os/storage", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 18698, 
+            ".bss": 204, 
+            ".data": 0, 
+            ".bss-delta": 204, 
+            ".text": 18698
+        }
+    }, 
+    {
+        "module": "mbed-os/targets", 
+        "size": {
+            ".data-delta": 36, 
+            ".text-delta": 13170, 
+            ".bss": 1033, 
+            ".data": 36, 
+            ".bss-delta": 1033, 
+            ".text": 13170
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 17704, 
+            "total_flash_delta": 83714, 
+            "static_ram_delta": 17704, 
+            "total_flash": 83714
+        }
+    }
+]

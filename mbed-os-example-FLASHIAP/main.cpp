@@ -46,7 +46,7 @@ void write_to_flash()
 
 void read_to_flash()
 {
-    //flash.init();
+    flash.init();
 
     const uint32_t flash_start = flash.get_flash_start();
     const uint32_t flash_size = flash.get_flash_size();

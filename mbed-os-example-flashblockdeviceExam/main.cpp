@@ -36,12 +36,8 @@ BlockDevice *bd = BlockDevice::get_default_instance();
 LittleFileSystem fs("fs");
 #include "FlashIAPBlockDevice.h"
 
-// Uncomment the following two lines and comment the previous two to use FAT file system.
-// #include "FATFileSystem.h"
-// FATFileSystem fs("fs");
-
 // Set up the button to trigger an erase
-InterruptIn irq(BUTTON1);
+//InterruptIn irq(BUTTON1);
 void erase()
 {
     printf("Initializing the block device... ");
@@ -67,7 +63,7 @@ void erase()
     if (err) {
         error("error: %s (%d)\n", strerror(-err), err);
     }
-}
+}#inc
 
 static auto erase_event = mbed_event_queue() -> make_user_allocated_event(erase);
 
@@ -100,6 +96,7 @@ void make_file()
     }
 
     printf("\tmake a files!!\n");
+    fclose(f);
 }
 
 void remove_file()
@@ -128,13 +125,16 @@ void remove_file()
         return ;
     }
 
+    printf("\tyes files!!\n");
+
+    fclose(f);
     int res = remove("/fs/numbers.txt");
     if (!res) {
         printf("\tfail to remove a files\n");
         return;
     }
 
-    printf("\tyes files!!\n");
+    printf("\tremove a files\n");
 }
 
 void TestFunc()
@@ -147,14 +147,13 @@ void TestFunc()
     const uint32_t page_size = flash.get_page_size();            // in bytes
     uint32_t sector_size = flash.get_sector_size(flash_end - 1); // in bytes
     uint32_t addr = flash_end - sector_size;
-    //FlashIAPBlockDevice fib(flash_start, flash_size);
-    FlashIAPBlockDevice fib;
+    FlashIAPBlockDevice fib(flash_start, flash_size);
     fib.init();
     int *ptr = new int[15];
     for (int i = 0; i < 15; i++) {
         ptr[i] = 10;
     }
-    int res = fib.read(ptr, sector_size - 1, sizeof(int) * 15);
+    int res = fib.read(ptr, 0, sizeof(int) * 15);
     if (!res) {
         printf("\tin TestFunc, read flash fail...\n");
     }
@@ -176,10 +175,10 @@ int main()
 
     // Setup the erase event on button press, use the event queue
     // to avoid running in interrupt context
-    irq.fall(std::ref(erase_event));
+    //irq.fall(std::ref(erase_event));
     //make_file();
     //remove_file();
-    TestFunc();
+    //TestFunc();
 
     printf("Mbed OS filesystem example done!\n");
 }
