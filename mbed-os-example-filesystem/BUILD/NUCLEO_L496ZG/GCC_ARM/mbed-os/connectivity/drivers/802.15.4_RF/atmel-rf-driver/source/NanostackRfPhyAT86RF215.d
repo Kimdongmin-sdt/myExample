@@ -122,6 +122,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-dr
  mbed-os/drivers/include/drivers/I2C.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
+ mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/hal/include/hal/gpio_api.h mbed-os/hal/include/hal/pinmap.h \
  mbed-os/hal/include/hal/i2c_api.h mbed-os/hal/include/hal/buffer.h \
  mbed-os/hal/include/hal/dma_api.h \
@@ -148,6 +149,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-dr
  mbed-os/platform/cxxsupport/mstd_utility \
  mbed-os/platform/cxxsupport/mstd_iterator \
  mbed-os/drivers/include/drivers/DigitalInOut.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalInOut.h \
  mbed-os/connectivity/nanostack/include/nanostack-interface/NanostackRfPhy.h \
  mbed-os/connectivity/nanostack/include/nanostack-interface/NanostackMACPhy.h \
  mbed-os/connectivity/nanostack/include/nanostack-interface/NanostackPhy.h \
@@ -168,6 +170,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-dr
  mbed-os/hal/include/hal/lp_ticker_api.h \
  mbed-os/drivers/include/drivers/SPI.h mbed-os/hal/include/hal/spi_api.h \
  mbed-os/drivers/include/drivers/DigitalOut.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
  mbed-os/platform/include/platform/CircularBuffer.h \
  mbed-os/platform/include/platform/mbed_critical.h \
  mbed-os/platform/include/platform/Span.h \
@@ -175,6 +178,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-dr
  mbed-os/platform/include/platform/mbed_version.h \
  mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-driver/source/rfbits.h \
  mbed-os/drivers/include/drivers/DigitalIn.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalIn.h \
  mbed-os/drivers/include/drivers/DigitalOut.h \
  mbed-os/drivers/include/drivers/InterruptIn.h \
  mbed-os/hal/include/hal/gpio_irq_api.h mbed-os/rtos/include/rtos/rtos.h \

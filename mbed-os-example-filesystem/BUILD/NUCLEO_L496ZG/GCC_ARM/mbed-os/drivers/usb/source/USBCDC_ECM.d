@@ -40,7 +40,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/drivers/usb/source/USBCDC_ECM.o: \
  mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \
  mbed-os/platform/include/platform/Callback.h \
  mbed-os/rtos/include/rtos/Thread.h mbed-os/rtos/include/rtos/Semaphore.h \
- mbed-os/rtos/include/rtos/Mutex.h \
  mbed-os/drivers/usb/include/usb/internal/EndpointResolver.h \
  mbed-os/hal/usb/include/usb/usb_phy_api.h \
  mbed-os/hal/usb/include/usb/USBPhy.h \

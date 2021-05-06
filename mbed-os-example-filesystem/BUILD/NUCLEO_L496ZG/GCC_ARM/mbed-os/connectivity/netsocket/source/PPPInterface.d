@@ -202,4 +202,5 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/netsocket/source/PPPInterface.o
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
+ mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h

@@ -41,6 +41,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/drivers/usb/source/USBMouse.o: \
  mbed-os/platform/include/platform/ScopedLock.h \
  mbed-os/rtos/include/rtos/Semaphore.h \
  mbed-os/platform/include/platform/PlatformMutex.h \
- mbed-os/rtos/include/rtos/Mutex.h mbed-os/rtos/include/rtos/ThisThread.h \
+ mbed-os/rtos/include/rtos/ThisThread.h \
  mbed-os/hal/usb/include/usb/usb_phy_api.h \
  mbed-os/hal/usb/include/usb/USBPhy.h

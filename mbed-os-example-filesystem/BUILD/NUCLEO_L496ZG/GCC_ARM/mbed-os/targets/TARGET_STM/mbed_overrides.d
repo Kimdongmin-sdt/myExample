@@ -108,4 +108,8 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/targets/TARGET_STM/mbed_overrides.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
  mbed-os/platform/include/platform/mbed_error.h \
- mbed-os/platform/include/platform/mbed_retarget.h
+ mbed-os/platform/include/platform/mbed_retarget.h \
+ mbed-os/targets/TARGET_STM/rtc_api_hal.h \
+ mbed-os/hal/include/hal/rtc_api.h mbed-os/targets/TARGET_STM/device.h \
+ mbed-os/hal/include/hal/lp_ticker_api.h \
+ mbed-os/hal/include/hal/ticker_api.h

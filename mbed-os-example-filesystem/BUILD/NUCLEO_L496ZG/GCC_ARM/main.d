@@ -202,6 +202,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/include/platform/FileHandle.h \
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/platform/include/platform/platform.h \
+ mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/connectivity/netsocket/include/netsocket/NetworkStack.h \
  mbed-os/events/include/events/mbed_events.h \
  mbed-os/events/include/events/EventQueue.h \
@@ -229,9 +230,12 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/include/platform/mbed_interface.h \
  mbed-os/platform/include/platform/mbed_debug.h \
  mbed-os/drivers/include/drivers/DigitalIn.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalIn.h \
  mbed-os/hal/include/hal/gpio_api.h mbed-os/hal/include/hal/pinmap.h \
  mbed-os/drivers/include/drivers/DigitalOut.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
  mbed-os/drivers/include/drivers/DigitalInOut.h \
+ mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalInOut.h \
  mbed-os/drivers/include/drivers/BusIn.h \
  mbed-os/drivers/include/drivers/BusOut.h \
  mbed-os/drivers/include/drivers/BusInOut.h \
@@ -303,5 +307,8 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/include/platform/Stream.h \
  mbed-os/platform/include/platform/FileLike.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
- mbed-os/storage/filesystem/littlefs/include/littlefs/LittleFileSystem.h \
- mbed-os/storage/filesystem/littlefs/littlefs/lfs.h
+ mbed-os/storage/filesystem/fat/include/fat/FATFileSystem.h \
+ mbed-os/platform/include/platform/PlatformMutex.h \
+ mbed-os/storage/filesystem/fat/ChaN/ff.h \
+ mbed-os/storage/filesystem/fat/ChaN/integer.h \
+ mbed-os/storage/filesystem/fat/ChaN/ffconf.h

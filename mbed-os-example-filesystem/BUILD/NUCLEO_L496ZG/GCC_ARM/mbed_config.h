@@ -368,6 +368,7 @@
 #define MBED_CONF_TARGET_LSE_AVAILABLE                                        1                                                                                                // set by target:MCU_STM32
 #define MBED_CONF_TARGET_LSE_DRIVE_LOAD_LEVEL                                 RCC_LSEDRIVE_LOW                                                                                 // set by target:MCU_STM32L4
 #define MBED_CONF_TARGET_MPU_ROM_END                                          0x0fffffff                                                                                       // set by target:Target
+#define MBED_CONF_TARGET_RTC_CLOCK_SOURCE                                     USE_RTC_CLK_LSE_OR_LSI                                                                           // set by target:MCU_STM32
 #define MBED_CONF_TARGET_TICKLESS_FROM_US_TICKER                              0                                                                                                // set by target:Target
 #define MBED_CONF_TARGET_XIP_ENABLE                                           0                                                                                                // set by target:Target
 #define MBED_CONF_TELIT_HE910_BAUDRATE                                        115200                                                                                           // set by library:TELIT_HE910

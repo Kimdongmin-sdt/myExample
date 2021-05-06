@@ -6,6 +6,7 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/hal/source/static_pinmap.o: \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
  mbed-os/hal/include/hal/static_pinmap.h \
+ mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/TARGET_NUCLEO_L496ZG/PinNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS/stm32l4xx.h \
