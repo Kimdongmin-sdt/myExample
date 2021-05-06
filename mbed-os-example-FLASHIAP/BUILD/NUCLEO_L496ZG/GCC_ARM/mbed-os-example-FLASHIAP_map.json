@@ -2,12 +2,12 @@
     {
         "module": "[fill]",
         "size": {
-            ".data-delta": 0, 
-            ".text-delta": -24, 
-            ".bss": 29, 
-            ".data": 4, 
-            ".bss-delta": 0, 
-            ".text": 82
+            ".text": 88,
+            ".data": 0,
+            ".bss": 22,
+            ".text-delta": -42,
+            ".data-delta": -8,
+            ".bss-delta": -14
         }
     },
     {
@@ -16,9 +16,9 @@
             ".text": 7416,
             ".data": 2112,
             ".bss": 56,
-            ".text-delta": 68,
-            ".data-delta": 4,
-            ".bss-delta": -33
+            ".text-delta": -8948,
+            ".data-delta": -208,
+            ".bss-delta": -39
         }
     },
     {
@@ -27,7 +27,7 @@
             ".text": 832,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 72,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -38,7 +38,7 @@
             ".text": 268,
             ".data": 4,
             ".bss": 28,
-            ".text-delta": 88,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -46,21 +46,12 @@
     {
         "module": "main.o",
         "size": {
-<<<<<<< HEAD
-            ".text": 232,
+            ".text": 236,
             ".data": 0,
             ".bss": 8,
-            ".text-delta": -4,
+            ".text-delta": 148,
             ".data-delta": 0,
-            ".bss-delta": 0
-=======
-            ".data-delta": 0, 
-            ".text-delta": 4, 
-            ".bss": 8, 
-            ".data": 0, 
-            ".bss-delta": 0, 
-            ".text": 240
->>>>>>> d3474d918e7a456c090b04ac36a5246003bcb983
+            ".bss-delta": -84
         }
     },
     {
@@ -69,7 +60,7 @@
             ".text": 6964,
             ".data": 168,
             ".bss": 6212,
-            ".text-delta": 66,
+            ".text-delta": -28,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -88,41 +79,23 @@
     {
         "module": "mbed-os/drivers",
         "size": {
-<<<<<<< HEAD
-            ".text": 314,
+            ".text": 394,
             ".data": 0,
             ".bss": 40,
-            ".text-delta": 4,
+            ".text-delta": -448,
             ".data-delta": 0,
             ".bss-delta": 0
-=======
-            ".data-delta": 0, 
-            ".text-delta": 80, 
-            ".bss": 40, 
-            ".data": 0, 
-            ".bss-delta": 0, 
-            ".text": 390
->>>>>>> d3474d918e7a456c090b04ac36a5246003bcb983
         }
     },
     {
         "module": "mbed-os/hal",
         "size": {
-<<<<<<< HEAD
             ".text": 1654,
             ".data": 8,
             ".bss": 114,
-            ".text-delta": -26,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
-=======
-            ".data-delta": 0, 
-            ".text-delta": 0, 
-            ".bss": 114, 
-            ".data": 8, 
-            ".bss-delta": 0, 
-            ".text": 1680
->>>>>>> d3474d918e7a456c090b04ac36a5246003bcb983
         }
     },
     {
@@ -131,9 +104,9 @@
             ".text": 5930,
             ".data": 260,
             ".bss": 428,
-            ".text-delta": 46,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text-delta": -890,
+            ".data-delta": -16,
+            ".bss-delta": -128
         }
     },
     {
@@ -142,44 +115,39 @@
             ".text": 210,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 12,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/storage",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -16098,
+            ".data-delta": 0,
+            ".bss-delta": -119
         }
     },
     {
         "module": "mbed-os/targets",
         "size": {
-<<<<<<< HEAD
-            ".text": 11748,
+            ".text": 11752,
             ".data": 8,
             ".bss": 1028,
-            ".text-delta": 132,
-            ".data-delta": 0,
-            ".bss-delta": 0
-=======
-            ".data-delta": 0, 
-            ".text-delta": 4, 
-            ".bss": 1028, 
-            ".data": 8, 
-            ".bss-delta": 0, 
-            ".text": 11620
->>>>>>> d3474d918e7a456c090b04ac36a5246003bcb983
+            ".text-delta": -2514,
+            ".data-delta": -32,
+            ".bss-delta": -40
         }
     },
     {
         "summary": {
-<<<<<<< HEAD
             "static_ram": 10496,
-            "static_ram_delta": -40,
-            "total_flash": 38320,
-            "total_flash_delta": 464
-=======
-            "static_ram": 10536, 
-            "total_flash_delta": 64, 
-            "static_ram_delta": 0, 
-            "total_flash": 37920
->>>>>>> d3474d918e7a456c090b04ac36a5246003bcb983
+            "static_ram_delta": -688,
+            "total_flash": 38384,
+            "total_flash_delta": -29084
         }
     }
 ]

@@ -7,13 +7,14 @@
 
 // Maximum number of elements in buffer
 #define FORCE_REFORMAT true
+#define FILE_NAME "/fs/test.txt"
 
 #include "FATFileSystem.h"
 FATFileSystem fs("fs");
 
 void isThere()
 {
-    FILE *fp = fopen("/fs/test.txt", "r");
+    FILE *fp = fopen(FILE_NAME, "r");
     if (!fp) {
         printf("no file..\n");
         return;
@@ -23,9 +24,17 @@ void isThere()
     fclose(fp);
 }
 
-void writeFile()
+void writeDir()
 {
+    printf("Dir start!!\n");
 
+    int res = mkdir("/fs/testDir", O_RDONLY);
+    if (res) {
+        printf("create dir fail..\n");
+        return;
+    }
+
+    printf("create dir success!!\n");
 }
 
 int main()
@@ -34,7 +43,7 @@ int main()
 
     printf("\n--- Mbed OS filesystem example ---\n");
     printf("type : %s!!\n", bd->get_type());
-    
+    /*
     int res = fs.mount(bd);
     if (res < 0) {
         printf("mount failed...\n");
@@ -47,9 +56,9 @@ int main()
     }
 
     printf("mount success!!\n");
-    isThere();
 
+    writeDir();
     fs.unmount();
     return 0;
-    
+    */
 }
