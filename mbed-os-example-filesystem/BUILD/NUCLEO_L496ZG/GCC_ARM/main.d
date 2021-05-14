@@ -311,4 +311,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/include/platform/PlatformMutex.h \
  mbed-os/storage/filesystem/fat/ChaN/ff.h \
  mbed-os/storage/filesystem/fat/ChaN/integer.h \
- mbed-os/storage/filesystem/fat/ChaN/ffconf.h
+ mbed-os/storage/filesystem/fat/ChaN/ffconf.h \
+ mbed-os/storage/filesystem/littlefs/include/littlefs/LittleFileSystem.h \
+ mbed-os/storage/filesystem/littlefs/littlefs/lfs.h
