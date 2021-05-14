@@ -134,7 +134,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/storage/kvstore/kv_config/source/kv_config.o
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/platform/include/platform/FileBase.h \
  mbed-os/platform/include/platform/FileHandle.h \
  mbed-os/platform/include/platform/Callback.h \

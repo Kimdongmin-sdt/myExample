@@ -210,7 +210,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/nanostack/mbed-mesh-api/source/
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/connectivity/nanostack/mbed-mesh-api/source/include/NanostackMemoryManager.h \
  mbed-os/connectivity/netsocket/include/netsocket/EMACMemoryManager.h \
  mbed-os/connectivity/nanostack/mbed-mesh-api/mbed-mesh-api/mesh_interface_types.h \

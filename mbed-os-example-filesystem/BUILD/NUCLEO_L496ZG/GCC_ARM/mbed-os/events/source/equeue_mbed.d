@@ -120,7 +120,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/events/source/equeue_mbed.o: \
  mbed-os/drivers/include/drivers/Timer.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/drivers/include/drivers/TickerDataClock.h \
  mbed-os/platform/include/platform/NonCopyable.h \
  mbed-os/drivers/include/drivers/Ticker.h \

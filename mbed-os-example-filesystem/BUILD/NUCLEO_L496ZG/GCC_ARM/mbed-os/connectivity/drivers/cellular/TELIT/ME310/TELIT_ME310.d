@@ -112,8 +112,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/cellular/TELIT/ME310/TE
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
- mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
  mbed-os/hal/include/hal/gpio_api.h mbed-os/hal/include/hal/pinmap.h \
  mbed-os/connectivity/cellular/include/cellular/framework/AT/AT_CellularDevice.h \
  mbed-os/connectivity/cellular/include/cellular/framework/API/CellularDevice.h \

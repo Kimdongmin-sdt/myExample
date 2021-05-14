@@ -150,7 +150,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/cellular/Altair/ALT1250
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/platform/include/platform/FileHandle.h \
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/drivers/include/drivers/SerialBase.h \
@@ -171,7 +170,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/drivers/cellular/Altair/ALT1250
  mbed-os/rtos/include/rtos/Semaphore.h mbed-os/rtos/include/rtos/Thread.h \
  mbed-os/connectivity/cellular/include/cellular/framework/API/ATHandler.h \
  mbed-os/drivers/include/drivers/DigitalInOut.h \
- mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalInOut.h \
  mbed-os/connectivity/drivers/cellular/Altair/ALT1250/PPP/ALT1250_PPP_CellularContext.h \
  mbed-os/connectivity/cellular/include/cellular/framework/AT/AT_CellularContext.h \
  mbed-os/connectivity/cellular/include/cellular/framework/API/CellularContext.h \

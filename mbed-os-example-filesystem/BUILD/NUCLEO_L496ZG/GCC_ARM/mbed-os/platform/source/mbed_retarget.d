@@ -135,7 +135,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/platform/source/mbed_retarget.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/platform/include/platform/FilePath.h \
  mbed-os/platform/include/platform/FileSystemLike.h \
  mbed-os/platform/include/platform/FileBase.h \

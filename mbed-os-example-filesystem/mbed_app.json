@@ -28,6 +28,14 @@
         "NUCLEO_L496ZG": {
             "target.components_add": ["FLASHIAP"],
             "target.features_add" : ["STORAGE"]
+        },
+        "NUCLEO_F413ZH": {
+            "target.components_add": [
+                "FLASHIAP"
+            ],
+            "target.features_add": [
+                "STORAGE"
+            ]
         }
     }
 }

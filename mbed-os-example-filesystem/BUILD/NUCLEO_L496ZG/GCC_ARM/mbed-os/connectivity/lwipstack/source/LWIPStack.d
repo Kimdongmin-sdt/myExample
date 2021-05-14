@@ -259,7 +259,6 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/connectivity/lwipstack/source/LWIPStack.o: \
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/connectivity/netsocket/include/netsocket/OnboardNetworkStack.h \
  mbed-os/connectivity/netsocket/include/netsocket/NetworkStack.h \
  mbed-os/connectivity/netsocket/include/netsocket/EMAC.h \

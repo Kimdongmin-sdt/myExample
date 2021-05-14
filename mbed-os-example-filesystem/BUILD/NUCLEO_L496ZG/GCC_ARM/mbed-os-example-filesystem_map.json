@@ -1,153 +1,153 @@
 [
     {
-        "module": "[fill]",
+        "module": "[fill]", 
         "size": {
-            ".text": 130,
-            ".data": 8,
-            ".bss": 36,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": -12, 
+            ".bss": 33, 
+            ".data": 4, 
+            ".bss-delta": 0, 
+            ".text": 152
         }
-    },
+    }, 
     {
-        "module": "[lib]/c.a",
+        "module": "[lib]/c.a", 
         "size": {
-            ".text": 16364,
-            ".data": 2320,
-            ".bss": 95,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": -212, 
+            ".bss": 89, 
+            ".data": 2108, 
+            ".bss-delta": 0, 
+            ".text": 10692
         }
-    },
+    }, 
     {
-        "module": "[lib]/gcc.a",
+        "module": "[lib]/gcc.a", 
         "size": {
-            ".text": 832,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 800
         }
-    },
+    }, 
     {
-        "module": "[lib]/misc",
+        "module": "[lib]/misc", 
         "size": {
-            ".text": 268,
-            ".data": 4,
-            ".bss": 28,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 28, 
+            ".data": 4, 
+            ".bss-delta": 0, 
+            ".text": 180
         }
-    },
+    }, 
     {
-        "module": "main.o",
+        "module": "main.o", 
         "size": {
-            ".text": 88,
-            ".data": 0,
-            ".bss": 92,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": -32, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 436
         }
-    },
+    }, 
     {
-        "module": "mbed-os/cmsis",
+        "module": "mbed-os/cmsis", 
         "size": {
-            ".text": 6992,
-            ".data": 168,
-            ".bss": 6212,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 6212, 
+            ".data": 168, 
+            ".bss-delta": 0, 
+            ".text": 7122
         }
-    },
+    }, 
     {
-        "module": "mbed-os/connectivity",
+        "module": "mbed-os/connectivity", 
         "size": {
-            ".text": 80,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 80
         }
-    },
+    }, 
     {
-        "module": "mbed-os/drivers",
+        "module": "mbed-os/drivers", 
         "size": {
-            ".text": 842,
-            ".data": 0,
-            ".bss": 40,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 40, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 866
         }
-    },
+    }, 
     {
-        "module": "mbed-os/hal",
+        "module": "mbed-os/hal", 
         "size": {
-            ".text": 1654,
-            ".data": 8,
-            ".bss": 114,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 114, 
+            ".data": 8, 
+            ".bss-delta": 0, 
+            ".text": 1692
         }
-    },
+    }, 
     {
-        "module": "mbed-os/platform",
+        "module": "mbed-os/platform", 
         "size": {
-            ".text": 6820,
-            ".data": 276,
-            ".bss": 556,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 516, 
+            ".data": 260, 
+            ".bss-delta": 0, 
+            ".text": 6952
         }
-    },
+    }, 
     {
-        "module": "mbed-os/rtos",
+        "module": "mbed-os/rtos", 
         "size": {
-            ".text": 210,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 212
         }
-    },
+    }, 
     {
-        "module": "mbed-os/storage",
+        "module": "mbed-os/storage", 
         "size": {
-            ".text": 16098,
-            ".data": 0,
-            ".bss": 119,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 44, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 13438
         }
-    },
+    }, 
     {
-        "module": "mbed-os/targets",
+        "module": "mbed-os/targets", 
         "size": {
-            ".text": 14266,
-            ".data": 40,
-            ".bss": 1068,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 1028, 
+            ".data": 40, 
+            ".bss-delta": 0, 
+            ".text": 12854
         }
-    },
+    }, 
     {
         "summary": {
-            "static_ram": 11184,
-            "static_ram_delta": 0,
-            "total_flash": 67468,
-            "total_flash_delta": 0
+            "static_ram": 10696, 
+            "total_flash_delta": -256, 
+            "static_ram_delta": 0, 
+            "total_flash": 58068
         }
     }
 ]

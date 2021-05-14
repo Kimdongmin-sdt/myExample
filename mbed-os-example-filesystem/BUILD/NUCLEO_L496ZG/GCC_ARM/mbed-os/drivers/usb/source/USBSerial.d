@@ -148,13 +148,13 @@ BUILD/NUCLEO_L496ZG/GCC_ARM/mbed-os/drivers/usb/source/USBSerial.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.h \
- mbed-os/hal/include/hal/PinNameAliases.h \
  mbed-os/platform/include/platform/FileLike.h \
  mbed-os/platform/include/platform/FileBase.h \
  mbed-os/platform/include/platform/SingletonPtr.h \
  mbed-os/platform/include/platform/mbed_atomic.h \
  mbed-os/platform/include/platform/internal/mbed_atomic_impl.h \
  mbed-os/platform/include/platform/PlatformMutex.h \
+ mbed-os/rtos/include/rtos/Mutex.h \
  mbed-os/platform/include/platform/FileHandle.h \
  mbed-os/platform/include/platform/Callback.h \
  mbed-os/platform/include/platform/mbed_poll.h \
