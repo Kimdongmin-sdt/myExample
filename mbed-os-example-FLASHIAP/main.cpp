@@ -26,8 +26,8 @@ void write_to_flash()
     uint32_t data_len = page_size / sizeof(uint32_t); // calculate available space
     uint32_t *data = new uint32_t[data_len]{1, 2, 3}; // create an array in SRAM and initialize the first three elements
 
-    // Print the first 15 elements
-    int k = 35;
+    // Print the first 15 elements 
+    int k = 35; 
     for (int i = 0; i < 15; i++) {
         data[i] = k++;
         printf("data[%d] = %d\r\n", i, data[i]);

@@ -3,22 +3,22 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -12, 
+            ".text-delta": 38, 
             ".bss": 33, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 152
+            ".text": 156
         }
     }, 
     {
         "module": "[lib]/c.a", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -212, 
+            ".text-delta": 272, 
             ".bss": 89, 
             ".data": 2108, 
             ".bss-delta": 0, 
-            ".text": 10692
+            ".text": 12340
         }
     }, 
     {
@@ -47,11 +47,11 @@
         "module": "main.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -32, 
+            ".text-delta": -84, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 436
+            ".text": 304
         }
     }, 
     {
@@ -102,11 +102,11 @@
         "module": "mbed-os/platform", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": -34, 
             ".bss": 516, 
             ".data": 260, 
             ".bss-delta": 0, 
-            ".text": 6952
+            ".text": 6844
         }
     }, 
     {
@@ -145,9 +145,9 @@
     {
         "summary": {
             "static_ram": 10696, 
-            "total_flash_delta": -256, 
+            "total_flash_delta": 192, 
             "static_ram_delta": 0, 
-            "total_flash": 58068
+            "total_flash": 59480
         }
     }
 ]
